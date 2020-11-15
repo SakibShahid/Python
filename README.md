@@ -1,5 +1,7 @@
 02.22.20
 
+
+
 first = 'Sakib'
 second = 'Shahid'
 print(first + '(' + second + ')')
@@ -53,7 +55,15 @@ if good_credit:
 else:
    print(int(house) * (0.2))
 
+
+
+
+
 03p.11.20
+
+
+
+
 
 if len(name)<4:
    print("your name must be at least 4 digits")
@@ -63,7 +73,14 @@ else:
    print('your name is good')
 sakib = 'a'
 print(sakib.upper())
+
+
+
+
  04.11.20
+
+
+
 
 wt = int(input('weight: '))
 convertor = input("Type 'k' for kg or,type 'l' for lbs ")
@@ -85,7 +102,13 @@ elif income >= 400000 < 1200000:
 if income > 1200000:
    print(f'{Tax} {income * 0.20} taka')
 
+
+
+
 06.11.20
+
+
+
 
 is_hot = True
 is_cold = False
@@ -116,7 +139,13 @@ while counting_starting < counting_ending:
    else: print('Sorry, you failed! ')
    print('You lost')
 
+
+
+
 08.11.20
+
+
+
 
 ban = [2, 2, 2, 6]
 for look in (ban):
@@ -157,7 +186,13 @@ while True:
        print('exit')
        break
 
-8.11.20
+
+
+
+9.11.20
+
+
+
 
 items = [6,4,2,7,5,8]
 max = items[0]
@@ -168,15 +203,29 @@ for choice in items:
 print(max)
 
 
+
+
+
 13.11.20
+
+
+
+
 charc = ['tamim', 'sakib']
 print(charc[-1])
 
 list = ['rat', 'cat', 'bat', 'hat', 'mat']
 list[1]='mango'
 print(list[:])
- 
+
+
+
+
 14.11.20
+
+
+
+
 mango = [1, 2, 5, 3]
 print(2 in mango)
 
@@ -264,7 +313,12 @@ def new_topic(name, qualification):
 new_topic('tamim', 'engineer')
 new_topic('sakib', 'doctor')
 
+
+
+
 15.11.20
+
+
 
 def square(digit):
    return digit * digit
@@ -298,7 +352,6 @@ def first_time(topic):
    for data in split:
        output += dictionary.get(data, data) + " "
    return output
-
 
 topic = input(">")
 print(first_time(topic))
